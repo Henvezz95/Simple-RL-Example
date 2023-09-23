@@ -6,3 +6,5 @@ The repository contains a simple example of Black-Box function approximation usi
 A car has a tank leakage. The car is moving at constant speed v toward the mechanic shop. The air resistance is proportional to the cube of the velocity. The leakage rate is constant. Find the speed that minimizes fuel consumption and maximizes the chance of arriving at the mechanic in time before the car stops, given the air resistance and the leakage rate.
 ![Car](https://github.com/Henvezz95/Simple-RL-Example/blob/main/car.png)
 
+The function that describes fuel consumption will be considered as a black box that takes air resistance and leakage rate as inputs. We will train a neural network to approximate this function using a simple Actor-Critic algorithm and the solution will be compared to the analytical solution of the problem
+
